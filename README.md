@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Remote Developer Jobs Analytics App
 
-## Available Scripts
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/twitterdev/remote-dev-jobs-analytics" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://twitter.com/tonyv00" target="_blank">
+    <img alt="Twitter: tonyv00" src="https://img.shields.io/twitter/follow/tonyv00.svg?style=social" />
+  </a>
+</p>
 
-In the project directory, you can run:
+This app demonstrates how you can use the [recent search](https://developer.twitter.com/en/docs/twitter-api/tweets/search) endpoint of the [new Twitter API](https://developer.twitter.com/en/docs/twitter-api) to learn five must know things about remote developer job postings including
 
-### `yarn start`
+- How many Tweets about remote developer job openings were posted in the last seven days in total?
+- What day of the week had the most remote developer jobs Tweeted in the past seven days?
+- What are the most in-demand programming languages based on those Tweets?
+- Which Tweet received the most engagement via retweets, likes, replies, and quotes?
+- What do some of these Tweeted jobs look like?
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🏠 [Guided tutorial](#)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### ✨ [Glitch Demo](#)
 
-### `yarn test`
+## Prerequisites
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- You must have an approved developer account, and have activated the [new developer portal](https://developer.twitter.com/en/portal/opt-in.html) experience. If you don’t have one already, you can [apply for one](https://developer.twitter.com/en/apply-for-access.html). Access is available with active keys and tokens for a developer App that is attached to a Project created in the developer portal.
 
-### `yarn build`
+## Install
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+npm install
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Environment setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Your bearer token can be found from your app in the [Twitter developer portal](https://developer.twitter.com/en/docs/developer-portal/overview)
 
-### `yarn eject`
+```sh
+export TWITTER_BEARER_TOKEN=<REPLACE WITH YOUR BEARER TOKEN INCLUDING ANGLE BRACKETS>
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Author
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+👤 **Tony Vu**
 
-## Learn More
+- Website: https://twitter.com/tonyv00
+- Twitter: [@tonyv00](https://twitter.com/tonyv00)
+- Github: [@tonyv](https://github.com/tonyv)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# How to Contribute
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+We'd love to get patches from you!
 
-### Code Splitting
+## 📝 License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+By contributing your code, you agree to license your contribution under the
+terms of the APLv2: https://github.com/twitter/repo-scaffolding/blob/master/LICENSE
 
-### Analyzing the Bundle Size
+## Code of Conduct
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Read our [Code of Conduct](CODE_OF_CONDUCT.md) for the project.
