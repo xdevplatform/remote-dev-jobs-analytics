@@ -20,8 +20,6 @@ This app demonstrates how you can use the [recent search](https://developer.twit
 
 ### 🏠 [Guided tutorial](#)
 
-### ✨ [Glitch Demo](#)
-
 ## Prerequisites
 
 - You must have an approved developer account, and have activated the [new developer portal](https://developer.twitter.com/en/portal/opt-in.html) experience. If you don’t have one already, you can [apply for one](https://developer.twitter.com/en/apply-for-access.html). Access is available with active keys and tokens for a developer App that is attached to a Project created in the developer portal.

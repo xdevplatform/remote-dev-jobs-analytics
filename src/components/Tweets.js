@@ -33,14 +33,13 @@ const Tweets = () => {
       setIsLoading(false);
     }
   };
+
   const getTweetCount = async () => {
     try {
       const response = await axios.get("/api/search/recent/count");
-      console.log(response);
       setTweetCount(response.data.count);
     } catch (e) {
       setError(e.response.data);
-      setIsLoading(false);
     }
   };
 
