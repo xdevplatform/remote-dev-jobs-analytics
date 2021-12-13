@@ -18,7 +18,7 @@ This app demonstrates how you can use the [recent search](https://developer.twit
 - Which Tweet received the most engagement via retweets, likes, replies, and quotes?
 - What do some of these Tweeted jobs look like?
 
-### 🏠 [Guided tutorial](#)
+### 🏠 [Guided tutorial](https://dev.to/twitterdev/top-5-things-you-can-learn-about-remote-developer-job-postings-with-the-new-twitter-api-8p5)
 
 ## Prerequisites
 
